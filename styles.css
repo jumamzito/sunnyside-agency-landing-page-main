@@ -1,0 +1,259 @@
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+:root{
+    font-size: 10px;
+}
+
+header{
+    position: relative;
+}
+.logo{
+    position:absolute;
+    z-index: 100;
+    margin: 2.5em 0 0 3em;
+}
+
+.header-img{
+    width: 100%;
+    position: relative;
+    top: 0;
+    
+}
+.arrow-h1{
+    position: absolute;
+    bottom: 25%;
+    left: 46%;
+}
+.main-nav{
+    display: none;
+
+}
+.hero-section{
+    position: relative;
+}
+.header-h1{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 4em;
+    position: absolute;
+    bottom: 50%;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0.2em;
+}
+.trans,.standout{
+    background-color: hsl(26, 100%, 99%);
+    padding: 5em 1em;
+    margin-bottom: 5em;
+
+}
+.statement,.standout-h,.apple-h2,.oranges-h,.footer-title{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 3.0rem;
+    color: hsl(212, 27%, 19%);
+    width: 80%;
+    
+}
+.standout-h{
+    width: 95%;
+    text-align: center;
+
+}
+.trans-text,.standout-p,.apple-p,.oranges-p{
+    font-family: 'Barlow', sans-serif;
+    color: hsl(232, 10%, 55%);
+    font-size: 1.8rem ;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 2em;
+    margin-top: -2.5em;
+    /* padding: 0 0.9em; */
+    /* border: 1px solid red; */
+
+}
+section{
+    border: 3px solid rgb(94, 255, 0);
+}
+/* .red-cup{
+    
+} */
+.btn-1 ,.btn-2{
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    box-shadow: 0 5px 2px 0 rgb(214, 212, 88);
+    text-decoration: none;
+    /* border-bottom: 1px solid black; */
+}
+.btn-2{
+    box-shadow: 0 5px 2px 0 red;
+    margin-bottom: 2em;
+}
+a:visited{
+    color: hsl(212, 27%, 19%);
+}
+
+
+.apple-section,.oranges{
+    position: relative;
+}
+
+.great-design,.oranges-section{
+    position: absolute;
+    bottom: 3%;
+    padding: 0 0.5em;
+}
+.apple-h2{
+    color: hsl(165, 44%, 24%);
+}
+
+.apple-p{
+    color: hsl(166, 39%, 30%)
+}
+
+.oranges-p,.oranges-h{
+    color: hsl(198, 62%, 26%);
+}
+
+.clients h2{
+    text-align: center;
+    color: hsl(210, 4%, 67%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.clients{
+    background-color: hsl(26, 100%, 99%);
+    padding-bottom: 8em;
+}
+
+.client-card img{
+    width:8em;
+    height:8em;
+    object-fit:cover;
+    border-radius:50%;
+    margin: 0 auto 4em auto;
+}
+
+.client-card{
+    text-align: center;
+    margin-top: 6em;
+
+}
+.statement-client{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.8em;
+    font-weight: 600;
+    color: hsl(223, 4%, 35%);
+    line-height: 1.5;
+    width: 90%;
+    margin: 0 auto 3em auto;
+}
+
+.cliet-name{
+    font-family: 'Fraunces', serif;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #212121;
+}
+.client-position{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: hsl(210, 4%, 65%);
+}
+.image-row{
+    display: flex;
+    /* width: 50%; */
+}
+.footer{
+    background-color: hsl(167, 51%, 70%);
+    padding: 0.5em 0 20em 0;
+}
+.footer-title{
+    font-family: 'Barlow', sans-serif;
+    margin: 1.8em auto;
+    color: hsl(165, 44%, 24%);
+
+}
+.footer-ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+}
+.footer-ul li{
+    flex-basis: 33.33%;
+    font-size: 1.5rem;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+.footer-ul a{
+    text-decoration: none;
+}
+a:visited, a:link{
+    color: hsl(167, 34%, 39%)
+}
+
+.socialIcons{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 9em auto 0 auto;
+}
+.socialIcons li{
+    flex-basis: 25%;
+    
+}
+
+/* p{
+    font-size: 1.8rem !important;
+} */
+
+
+
+/* fonts
+
+font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;
+*/
+/* .arrow-h1{
+    width: 20px;
+    height: 50px;
+    text-align: center;
+} */
+
+/* .last-image{
+    width: 100%;
+    display: flexbox;
+    flex-direction: row;
+}
+.row1{
+    flex-direction: column;
+} */
